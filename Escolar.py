@@ -165,7 +165,7 @@ radiob1.select()
 
 #Textbox
 vida=tk.StringVar()
-vidat=ttk.Entry(tab2, width=36, textvariable=vida).grid(row=5, column=0, expand=True)
+vidat=ttk.Entry(tab2, width=36, textvariable=vida).grid(row=5, column=0)
 
 #Button
 imprimirtab2=ttk.Button(tab2, text="Imprimir Datos Extras", command=buttonTab2).grid(row=5, column=4)
